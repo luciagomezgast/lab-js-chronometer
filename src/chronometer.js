@@ -8,7 +8,7 @@ class Chronometer {
     this.intervalId = setInterval(()=> {
       if(printTimeCallback) {printTimeCallback()
         }
-        this.currentTime ++}, 1000
+        this.currentTime ++}, 10
     )
   } 
 
